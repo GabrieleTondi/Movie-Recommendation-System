@@ -1,0 +1,17 @@
+name: film_reco_env
+channels:
+  - defaults
+  - conda-forge 
+
+dependencies:
+  - python=3.8 
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - ipykernel
+  - scikit-surprise
